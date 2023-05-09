@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+}
+
+@font-face {
+  font-family: "CustomFont";
+
+}
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75em;
+}
+
+.cover {
+  margin: 1% 40% 0%;
+  background-color: white;
+  width: 90%;
+  height: 50%;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.55em #3dfb04;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.alt-login {
+  width: 80%;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0px;
+}
+
+.alt-login div {
+  width: 55.5%;
+  height: 90%;
+  margin: 0px 10px;
+  border-radius: 0.25em;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+ .google {background-image: url("../src/google2.jpg");}
+.facebook {background-image: url("../src/fb.jpg");} 
+
+input {
+  /* border: none; */
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 10px;
+
+  border-color: black;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.95em;
+}
+
+.head {
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 15px 0px 0px;
+}
+input:focus {
+  outline-color: #3dfb04;
+}
+
+.login-btn {
+  width: 45%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 3em;
+  color: rgb(0, 0, 0);
+  background-color: #3dfb04;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 1.25em;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.login-btn:hover {
+  transform: scale(1.25);
+}
+
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  bottom: 0.5%;
+}
+.hide {
+  position: absolute;
+  transform: scale(0);
+}
+
+.login-popup {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  background-color: #3dfb04;
+  color: rgb(0, 0, 0);
+  bottom: 0;
+  transform: scale(1);
+  transition: 1.5s;
+}
+
+.blue {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-image: url("../src/google2.jpg");
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 7em) {
+  .page {
+    font-size: 1em;
+  }
+
+  .cover {
+    margin: 50px auto;
+    width: fit-content;
+  }
+}
+@media only screen and (min-device-width: 37em) {
+  .page {
+    font-size: 1em;
+  }
+
+  .cover {
+   
+    width: fit-content;
+    margin:  50px auto;
+ }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+
+@media only screen and (min-device-width: 64em) {
+  .page {
+    font-size: 1.25em;
+  }
+
+  .cover {
+    height: 500px;
+    width: 400px;
+    
+    margin:  80px auto;
+ }
+}

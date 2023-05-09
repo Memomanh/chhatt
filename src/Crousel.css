@@ -1,0 +1,88 @@
+/* .mycardcontainer{
+    display: flex;
+    overflow: hidden;
+    padding: 0px 15px;
+
+}
+.card-crouser{
+    position: relative;
+    overflow-x: hidden;
+    padding: 26px;
+    scroll-behavior: smooth;
+
+
+}
+.pre-btn , .next-btn{
+    border: none;
+    width: 60px;
+    height: 70%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+   
+}
+.next-btn{
+    right: 0;
+}
+.next-btn p ,.pre-btn p{
+    font-size: 50px;
+    padding: 3px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+.focss{
+    position: absolute;
+    left: 20%;
+} */
+.product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.product-container {
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.pre-btn,
+.next-btn {
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+    right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 4px;
+    background-color: rgba(219, 219, 219, 0.703);
+    /* background-color: rgba(255, 255, 255, 0.436); */
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    color: #3dfb04;
+    width: 60px;
+    /* height: 50px; */
+    cursor: pointer;
+}

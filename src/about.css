@@ -1,0 +1,35 @@
+.com{
+    font-weight: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  margin:50px 14% ;
+}
+
+.pen strong{
+    color:#3cff00;
+}
+.searchBars{
+    /* display: flex; */
+    /* flex-direction: row;
+    flex: wrap; */
+    width: 33%;
+    margin-left:33%;
+    margin-top:10px;
+}
+.btns2{  
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fdfffc;
+    border: 2px solid #000000;
+    text-decoration: none;
+}
+.place{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

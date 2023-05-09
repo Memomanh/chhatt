@@ -1,0 +1,24 @@
+.mycard {
+    min-width: 500px;
+    max-width: 500px;
+
+    height: 270px;
+    background-color: black;
+    /* background:url("https://images.indianexpress.com/2016/02/green-building759.jpg");  */
+    background-repeat: no-repeat;
+     background-size: cover;
+    margin: 10px;
+    color: white;
+}
+
+
+.cardzs{
+    text-align: center;
+    position: relative;
+    top: 75%;
+    left: 15%;
+    font-size: 32px;
+}
+.desp{
+    display: flex;
+}

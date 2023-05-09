@@ -1,0 +1,53 @@
+.btns1 {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  padding: 3px;
+  margin: 10px 38px;
+  border-radius: 5px;
+  border-style: solid;
+border-color: #3dfb04;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 70%;
+  height: 70%;
+}
+
+
+.flexs {
+  display: flex;
+}
+.menus p2 {
+  display: flex;
+  font-size: 20px;
+  margin: 10px 20px;
+  text-decoration: underline;
+}
+.const p1 {
+  height: 35%;
+  width: 60%;
+  background-color: rgb(81, 255, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 90px 10px 10px;
+  border-style: solid;
+
+  font-size: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.const {
+  margin-top: 50px;
+  width: 32%;
+  height: 30%;
+  flex-basis: 20%;
+}
+.menus strong {
+  height: 50px;
+  width: 60px;
+  margin-left: 10px;
+}
+.menus{
+    width: 96%;
+}
